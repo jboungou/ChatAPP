@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_menu"
+        android:iconTint="@color/white"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/vendeur"
+                android:title="@string/deposez_une_annonce"
+                android:icon="@drawable/ic_add"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/favoris"
+                android:title="@string/favoris"
+                android:icon="@drawable/ic_favorite"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/message"
+                android:title="@string/message"
+                android:icon="@drawable/ic_message"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/Recherch_saved"
+                android:title="@string/recherches_sauvegard_es"
+                android:icon="@drawable/ic_saved"
+                app:showAsAction="ifRoom"/>
+
+
+            <item
+                android:id="@+id/rechercher"
+                android:title="@string/rechercher"
+                android:icon="@drawable/ic_search"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/alertitem"
+                android:title="@string/creer_une_alerte"
+                android:icon="@drawable/ic_alerte"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/connexion"
+                android:title="@string/connexion"
+                android:icon="@drawable/ic_login"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+
+    </item>
+
+</menu>

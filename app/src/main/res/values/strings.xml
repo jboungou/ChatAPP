@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ChatFumu</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+
+    <string name="ter1"><![CDATA[<b>Ngoyo Puma\n A VENDRE :\n Deux parcelles jumelées au bord du goudron\n Réf : côte à côte avec la maison du président de lAssemblée\n Superficie : 1000 m2.\n Document : Titre foncier \n Prix pour les deux parcelles : 41, 000 000 F à débattre légèrement]]></string>
+    <string name="ter2"><![CDATA[<b>Mongo Mpoukou (quartier Siafoumou) \n A VENDRE : \n 4 parcelles jumelées (2000 m2),\n secteur Wamba Sassou Nguesso. \n Les parcelles se situent entre une grande avenue(par la largeur) et de deux rues par leurs longueurs). Un emplacement idéal pour faire une école, clinique, un site commercial,  ou en bâtir des résidence,\n Document : Titre foncier \n Prix unitaire : 14,000,000\n Prix global : 50,000,000]]></string>
+    <string name="ter3"><![CDATA[<b>PARCELLE DE M’PAKA (vers la maternité)\n Superficie du terrain: 400m²\n Avec une maison (toilette et douche extérieur).\n Idéalement bien placé.\n Valeur estimée: 22000000 F CFA.]]></string>
+    <string name="ter4"><![CDATA[<b>PARCELLE NGOYO (derrière la commune).\n Superficie du terrain : 700m² \n Terrain placé sur deux rues (devant et à l’arrière). \n Maison d’une superficie de: plus de 30m2.\n Toilette extérieure + puisard.\n Valeur estimée: 27000000 F CFA.]]></string>
+    <string name="ter5"><![CDATA[<b>PARCELLE NGOYO (vers le péage en allant sur le Tchiamba nzassi).\n Superficie du terrain: 800m²\n Terrain placé à l’angle d’une rue et d’une avenue.\n Clôture en briques.\n Poteau électricité à l’angle du terrain.\n Valeur estimée: 25000000 F CFA.]]></string>
+    <string name="rechercher_un_article">Rechercher un article</string>
+
+    <string name="left" translatable="false"><![CDATA[<]]></string>
+    <string name="right" translatable="false"><![CDATA[>]]></string>
+    <string name="no_results_found">No Results Found</string>
+    <string name="deposez_une_annonce">Deposez une annonce</string>
+    <string name="favoris">Favoris</string>
+    <string name="message">Message</string>
+    <string name="recherches_sauvegard_es">Recherches sauvegardées</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="creer_une_alerte">Creer une Alerte</string>
+    <string name="recevez_nos_alertes_sur_les_articles">Recevez nos alertes sur les articles!</string>
+    <string name="sairsir_le_nom_de_l_article">Sairsir le nom de l\'article</string>
+    <string name="connexion">Connexion</string>
+
+</resources>

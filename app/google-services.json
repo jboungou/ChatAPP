@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122567467702",
+    "project_id": "chatfumu",
+    "storage_bucket": "chatfumu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122567467702:android:4f7972377f0dfe8820bc17",
+        "android_client_info": {
+          "package_name": "com.example.chatfumu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122567467702-mktg68ic905cf8t3gcqusolt59h7k8u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIiHhqksxkyHn-ZhNNpJOa8jfIOUNZ7IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122567467702-mktg68ic905cf8t3gcqusolt59h7k8u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
