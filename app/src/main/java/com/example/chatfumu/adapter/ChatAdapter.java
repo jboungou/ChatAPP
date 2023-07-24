@@ -15,17 +15,13 @@ import java.util.List;
 
 public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
-    private Bitmap receiverProfileImage;
+    private final Bitmap receiverProfileImage;
     private final List<ChatMessage> chatMessage;
     private final String senderId;
 
     public static final int VIEW_TYPE_SENT = 1;
     public static final int VIEW_TYPE_RECEIVED = 2;
-
-    public void setReceiverProfileImage(Bitmap bitmap){
-        receiverProfileImage = bitmap;
-    }
-    public ChatAdapter(List<ChatMessage> chatMessage, Bitmap receiverProfileImage, String senderId) {
+    public ChatAdapter(Bitmap receiverProfileImage, List<ChatMessage> chatMessage, String senderId) {
         this.receiverProfileImage = receiverProfileImage;
         this.chatMessage = chatMessage;
         this.senderId = senderId;
@@ -56,7 +52,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         if (getItemViewType(position) == VIEW_TYPE_SENT) {
-            (( SentMessageViewHolder) holder).setData(chatMessage.get(position));
+            ((SentMessageViewHolder) holder).setData(chatMessage.get(position));
         }else{
             ((ReceiverMessageViewHolder) holder).setData(chatMessage.get(position), receiverProfileImage);
         }
@@ -80,7 +76,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
         private final ItemContainerSentMessageBinding binding;
 
-         SentMessageViewHolder(ItemContainerSentMessageBinding itemContainerSentMessageBinding) {
+        public SentMessageViewHolder(ItemContainerSentMessageBinding itemContainerSentMessageBinding) {
             super(itemContainerSentMessageBinding.getRoot());
             binding = itemContainerSentMessageBinding;
         }
@@ -101,9 +97,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
         void setData(ChatMessage chatMessage, Bitmap receiverProfileImage){
             binding.textMessage.setText(chatMessage.message);
             binding.textDateTime.setText(chatMessage.dateTime);
-            if (receiverProfileImage != null){
-                binding.imageProfile.setImageBitmap(receiverProfileImage);
-            }
+            binding.imageProfile.setImageBitmap(receiverProfileImage);
 
         }
     }
